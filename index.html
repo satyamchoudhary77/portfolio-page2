@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap">
+    <script src="https://kit.fontawesome.com/ac4dd1e0b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <h1 class="myname animate-heading"><span class="highlight-letter"></span>Portfolio Page</h1>
+<div id="header">
+
+<nav class="nav-links">
+  <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+  <ul id="sidemenu">
+    <i class="fa-solid fa-circle-xmark close-icon" onclick="hideMenu()"></i>
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  <div class="header-text">
+    <p>Front-End Developer</p>
+    <h1>Hi, I'm <span>Satyam choudhary</span> From India</h1>
+  </div>
+  <!-- <img src="protfolio photo3.jpg" alt=""> -->
+
+<img src="protfolio photo3.jpg" alt="Laptop Photo" class="desktop-img">
+
+
+<!-- <img src="mobile photo.jpg" alt="Mobile Photo" class="mobile-img"> -->
+
+</div>
+
+<!-- --------ABOUT-------- -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+        <div class="about-col-1">             
+            <img src="Portfolio profile.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+           <h1 class="sub-title">About Me</h1>
+           <p>My name is Satyam Choudhary, and I am a passionate Front-End Developer from Indore, M.P.
+                I am currently a B.Tech student, and I enjoy turning creative ideas into beautiful and responsive web designs.
+                I love working with HTML, CSS, and JavaScript to build user-friendly websites that look modern and clean.
+                I am always excited to learn new technologies and improve my skills to become a better developer every day.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web App interface</li>
+                    <li><span>Web Devlpoment</span><br>Web App Development</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2024</span><br>Designing Web App interface from internet</li>
+                    <li><span>2022</span><br>Web Development from IES IPS institute of Engineering & science</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!----------------Services------------------->
+<div id="services">
+  <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+          <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I create modern, creative, and fully responsive websites that look stunning and work smoothly. Focused on user-friendly design to help your brand stand out and grow online confidently.</p>
+            <a href="">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>I design clean, modern, and user-friendly UI/UX that makes your app or website easy to use, attractive, and memorable — helping your brand connect better with your audience.</p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+</div>
+
+<!-- -------------Portfolio---------------- -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Connect globally, share moments, chat freely, and build your network easily with our secure, fast, and user-friendly social media app.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+     </div>
+
+      <div class="work">
+        <img src="work-2.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>Listen to unlimited songs, create playlists, and enjoy high-quality music anytime with our smooth, personalized, and easy-to-use music app.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="work-3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>Shop your favorite products anytime, anywhere with our secure, fast, and user-friendly app — enjoy easy browsing and smooth checkout.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-- -------------contact-------------- -->
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>choudharysatyam369@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9171860624</p>
+
+        <div class="social-icons">
+          <a href="https://x.com/imstymchoudhary?t=aEgfXPPBgPkKJHpRbwdovQ&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.instagram.com/__made__4__each__other__?igsh=MXdmNzVuejdkYnppdg=="><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/satyam-choudhary-4716b4242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="Resume formet.png" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text"  name="Name" placeholder="Your Name" required>
+          <input type="email"  name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+     var tabLinks = document.getElementsByClassName("tab-links");
+var tabContents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabName) {
+  for (var i = 0; i < tabLinks.length; i++) {
+    tabLinks[i].classList.remove("active-link");
+  }
+  for (var i = 0; i < tabContents.length; i++) {
+    tabContents[i].classList.remove("active-tab");
+  }
+  document.getElementById(tabName).classList.add("active-tab");
+  event.currentTarget.classList.add("active-link");
+}
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwksRz9TUd-lM1j2XKV4FsS2w3zElf_iIKBcTSe36dkS20sEYExUfkUGy5zbusjFZ4i/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+
+
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function showMenu() {
+  sidemenu.style.right = "0";
+}
+function hideMenu() {
+sidemenu.style.right = "-200px";
+}
+
+var navLinks = sidemenu.querySelectorAll("a");
+navLinks.forEach(function(link) {
+link.addEventListener("click", hideMenu);
+});
+
+</script>
+
+</body>
+</html>
